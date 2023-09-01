@@ -15,3 +15,4 @@ sudo pacman -S --needed --noconfirm neovim python-pynvim
 
 # Install docker
 sudo pacman -S --needed --noconfirm docker docker-buildx docker-compose
+sudo usermod -aG docker "$USER"
