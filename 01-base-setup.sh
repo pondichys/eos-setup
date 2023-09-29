@@ -8,7 +8,7 @@ sudo pacman -S --needed --noconfirm bash bash-completion
 sudo pacman -S --needed --noconfirm git github-cli git-delta lazygit
 
 # Install some base utilities
-sudo pacman -S --needed --noconfirm bat bottom fd fzf go-yq jq lsd ripgrep starship stow tmux tree unzip wget zoxide
+sudo pacman -S --needed --noconfirm bat bottom fd fzf go-yq jq lsd ripgrep starship stow tmux tree unzip wget zellij zoxide
 
 # Install neovim and python bindings
 sudo pacman -S --needed --noconfirm neovim python-pynvim
