@@ -16,3 +16,8 @@ sudo pacman -S --needed --noconfirm neovim python-pynvim
 # Install docker
 sudo pacman -S --needed --noconfirm docker docker-buildx docker-compose
 sudo usermod -aG docker "$USER"
+
+# Install fnm to manage node.js
+yay -S --needed --noconfirm fnm-bin
+# Install latest version of node.js
+fnm install --latest
