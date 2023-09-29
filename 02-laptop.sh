@@ -1,3 +1,5 @@
+# Remove power-profiles-daemon to avoid conflict with tlp
+sudo pacman -R power-profiles-daemon
 # Install tlp 
 # https://wiki.archlinux.org/title/TLP
 sudo pacman -S --needed --noconfirm tlp
